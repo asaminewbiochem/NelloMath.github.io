@@ -1,0 +1,20 @@
+name: Bug Report
+description: Something is going wrong and it needs to be fixed!
+title: "*Your Bug Report Title Here*"
+labels: Bug
+body:
+  - type: input
+  attributes:
+    label: What went wrong?
+    description: Tell me what went wrong.
+  validations:
+    required: true
+  - type: input
+  attributes:
+    label: How can this be reproduced?
+    description: How can the bug be retriggered?
+  validations:
+    required: true
+- type: checkboxes
+  attributes:
+    label: I agree to the website.
